@@ -12,9 +12,9 @@ const BCard =({title , description, brand, price, src, warranty}) => {
           <Card.Text>{description}</Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
-          <ListGroup.Item>Brand : {brand}</ListGroup.Item>
-          <ListGroup.Item>Price : {price}</ListGroup.Item>
-          <ListGroup.Item>Warranty : {warranty}</ListGroup.Item>
+          <ListGroup.Item><strong>Brand :</strong> {brand}</ListGroup.Item>
+          <ListGroup.Item><strong>Price :</strong> {price}</ListGroup.Item>
+          <ListGroup.Item><strong>Warranty :</strong> {warranty}</ListGroup.Item>
         </ListGroup>
       </Card>
      
